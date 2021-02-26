@@ -791,5 +791,6 @@ textarea {
   .footer-form {
     height: 20vh;
     transform: translate(0, 20px);
+    margin-bottom: 50px;
   }
 }
