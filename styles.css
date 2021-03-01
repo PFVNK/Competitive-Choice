@@ -576,6 +576,13 @@ textarea {
   .cc-contactus-form-container {
     width: 300px;
     margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .cc-contactus-title {
+    height: 90px;
   }
 
   .cc-contactus-form textarea {
