@@ -711,6 +711,14 @@ textarea {
     margin-bottom: 15px;
     list-style-type: none;
   }
+
+  .map-container {
+    height: 300px;
+  }
+
+  .map-container img {
+    height: 300px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
