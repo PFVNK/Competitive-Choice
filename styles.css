@@ -483,7 +483,7 @@ textarea {
 
 @media only screen and (max-width: 1020px) {
   .footer-container {
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -494,6 +494,7 @@ textarea {
   .footer-contact {
     width: 95vw;
     transform: translate(0, -5px);
+    margin-bottom: 50px;
   }
 
   .footer-contact h2 {
@@ -741,6 +742,7 @@ textarea {
 
   .footer-contact {
     height: 20vh;
+    margin-bottom: 50px;
   }
 
   .footer-form {
