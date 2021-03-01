@@ -24,7 +24,6 @@ textarea {
 .cc-header {
   width: 100vw;
   height: 20vh;
-  /* border: solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,7 +33,6 @@ textarea {
 .cc-logo-container {
   height: 15vh;
   min-width: 20vw;
-  /* border: solid pink; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +42,6 @@ textarea {
 .cc-logo {
   height: 90%;
   width: 80%;
-  /* border: solid purple; */
 }
 
 
@@ -58,7 +55,6 @@ textarea {
   width: 60vw;
   height: 100%;
   font-size: 2vw;
-  /* border: solid green; */
 }
 
 .cc-nav li {
@@ -71,7 +67,6 @@ textarea {
 .cc-search {
   width: 10vw;
   height: 100%;
-  /* border: solid blue; */
   display: flex;
   align-items: center;
   justify-content: end;
@@ -92,7 +87,6 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: start;
-  /* border: solid yellow; */
   padding: 10px;
   margin-right: 50px;
 }
@@ -122,7 +116,6 @@ textarea {
 .cc-main {
   height: 110vh;
   width: 100vw;
-  /* border: solid purple; */
   position: relative;
   overflow: hidden;
 }
@@ -147,7 +140,6 @@ textarea {
 .cc-main-forms {
   min-height: 110vh;
   width: 100vw;
-  /* border: solid red; */
   position: absolute;
   top: 0;
   display: flex;
@@ -159,20 +151,17 @@ textarea {
 .cc-forms {
   width: 70vw;
   height: 70vh;
-  /* border: solid orange; */
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   justify-content: space-between;
-  /* transform: translate(0, -60px); */
   margin-bottom: 30px;
 }
 
 .cc-signup-form-container {
   height: 90%;
   width: 350px;
-  /* border: solid blue; */
   padding: 15px;
   background-color: #0D173A;
   color: white;
@@ -181,7 +170,6 @@ textarea {
 .cc-signup-title {
   height: auto;
   width: 100%;
-  /* border: solid pink; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -202,7 +190,6 @@ textarea {
 }
 
 .cc-signup-form {
-  /* border: solid red; */
   display: flex;
   flex-direction: column;
   margin-top: 20px;
@@ -234,7 +221,6 @@ textarea {
 .cc-contactus-form-container {
   height: 90%;
   width: 350px;
-  /* border: solid green; */
   white-space: nowrap;
 }
 
@@ -244,7 +230,6 @@ textarea {
 
 .cc-contactus-title {
   margin: 0 70px 0 0;
-  /* border: solid red; */
 }
 
 .cc-contactus-form-container p {
@@ -257,7 +242,6 @@ textarea {
 }
 
 .cc-contactus-form {
-  /* border: solid red; */
   display: flex;
   flex-direction: column;
   margin-top: 20px;
@@ -312,22 +296,11 @@ textarea {
   font-size: 1em;
 }
 
-/* @media only screen and (max-width: 950px) {
-  .cc-signup-title img {
-    height: 40px;
-    width: 40px;
-  }
-
-  .cc-form-button {
-    margin-top: 10px;
-    margin-bottom: 0;
-  }
-} */
+/* ADDRESS SECTION */
 
 .cc-address-bar {
   width: 70vw;
   height: 23vh;
-  /* border: solid red; */
   background-color: rgba(255, 255, 255, .8);
   display: flex;
   justify-content: space-between;
@@ -339,7 +312,6 @@ textarea {
   flex-direction: column;
   justify-content: center;
   padding: 15px;
-  /* border: solid purple; */
 }
 
 .address h1 {
@@ -351,7 +323,6 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* border: solid purple; */
   padding: 15px 0 15px 0;
 }
 
@@ -365,7 +336,6 @@ textarea {
 .social-container {
   width: 100vw;
   height: 30vh;
-  /* border: solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -375,7 +345,6 @@ textarea {
 
 .social-headline {
   width: 100vw;
-  /* border: solid purple; */
   margin-bottom: 20px;
   text-align: center;
 }
@@ -385,7 +354,6 @@ textarea {
   height: 10vh;
   display: flex;
   justify-content: space-around;
-  /* border: solid red; */
 }
 
 .map-container {
@@ -410,11 +378,6 @@ textarea {
   width: 800px;
   height: 15vh;
   background-color: #F7BD14;
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  align-content: left; */
   transform: translate(0, 30px);
 }
 
@@ -423,7 +386,6 @@ textarea {
 }
 
 .footer-contact-content {
-  /* border: solid red; */
   width: 60vw;
   text-align: left;
   transform: translate(200px, 15px);
@@ -433,12 +395,10 @@ textarea {
 .footer-list-container {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   justify-content: space-around;
   color: white;
   width: 800px;
   height: 180px;
-  /* border: solid red; */
   vertical-align: text-top;
   transform: translate(20px, -140px);
   list-style-type: none;
@@ -454,10 +414,7 @@ textarea {
 }
 
 .footer-right {
-  /* height: 300px; */
-  /* width: 300px; */
   height: 15vh;
-  /* border: solid red; */
   width: 400px;
   transform: translate(990px, -50px);
 }
@@ -495,7 +452,6 @@ textarea {
 }
 
 .footer-social {
-  /* border: solid purple; */
   display: flex;
   flex-direction: column;
   transform: translate(1045px, -40px);
@@ -529,7 +485,6 @@ textarea {
   .footer-container {
     height: 100vh;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
